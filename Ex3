@@ -1,0 +1,12 @@
+class Bird:
+    def eat(self):
+        print("bird eat food"):
+
+
+class sparrow(Bird):
+      def fly(self):
+         print("sparrow fly")
+
+d1 = sparrow()
+d1.eat()
+d1.fly()
